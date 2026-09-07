@@ -38,12 +38,11 @@ Open the printed localhost URL, sign in with a `@shopdeck.com` or `@blitzscale.c
 
 ## 4. Push to GitHub and deploy via GitHub Pages
 
+This folder already has a git history with one commit. Create an empty repo on GitHub, then:
+
 ```bash
-git init
-git add -A
-git commit -m "Part 1: Google login + Sheets fetch"
-git branch -M main
 git remote add origin <your-new-repo-url>
+git branch -M main
 git push -u origin main
 ```
 
