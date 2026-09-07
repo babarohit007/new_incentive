@@ -8,7 +8,7 @@
 // Fill these in with your real sheets before running the app — the values
 // below are placeholders and will fail to fetch.
 export const SHEET_SOURCES = [
-  { key: 'sheet1', label: 'Sheet 1', spreadsheetId: 'PUT_SPREADSHEET_ID_HERE', range: 'Sheet1' },
+  { key: 'sheet1', label: '5K Hit Assignment', spreadsheetId: '1T-HXqHxDV2ZCWURxvjpyiYRIvaBDKYw9AolRNiJNsfs', range: '5K_hit_assignment!A:G' },
   { key: 'sheet2', label: 'Sheet 2', spreadsheetId: 'PUT_SPREADSHEET_ID_HERE', range: 'Sheet1' },
   { key: 'sheet3', label: 'Sheet 3', spreadsheetId: 'PUT_SPREADSHEET_ID_HERE', range: 'Sheet1' },
   { key: 'sheet4', label: 'Sheet 4', spreadsheetId: 'PUT_SPREADSHEET_ID_HERE', range: 'Sheet1' },
