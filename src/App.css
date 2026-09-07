@@ -1,0 +1,154 @@
+:root {
+  color-scheme: light;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f5f6f8;
+  color: #1a1a1a;
+}
+
+.login-screen {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+}
+
+.login-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08), 0 8px 24px rgba(0, 0, 0, 0.06);
+  padding: 40px;
+  max-width: 380px;
+  width: 100%;
+  text-align: center;
+}
+
+.login-card h1 {
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+
+.google-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: 1px solid #dadce0;
+  background: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.google-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.google-btn:hover:not(:disabled) {
+  background: #f8f9fa;
+}
+
+.muted {
+  color: #5f6368;
+  font-size: 14px;
+}
+
+.muted.small {
+  font-size: 12px;
+}
+
+.error-text {
+  color: #c5221f;
+  font-size: 13px;
+  margin-top: 12px;
+}
+
+.fine-print {
+  color: #80868b;
+  font-size: 11px;
+  margin-top: 24px;
+  line-height: 1.5;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.app-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.app-header h1 {
+  font-size: 22px;
+  margin: 0 0 4px;
+}
+
+.link-btn {
+  background: none;
+  border: none;
+  color: #1a73e8;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.sheet-block {
+  background: #fff;
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+}
+
+.sheet-block-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sheet-block-header h3 {
+  margin: 0;
+  font-size: 15px;
+}
+
+.badge {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+
+.badge-ok {
+  background: #e6f4ea;
+  color: #137333;
+}
+
+.badge-error {
+  background: #fce8e6;
+  color: #c5221f;
+}
+
+.table-scroll {
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 12px;
+  width: 100%;
+}
+
+td {
+  border: 1px solid #eee;
+  padding: 4px 8px;
+  white-space: nowrap;
+}
